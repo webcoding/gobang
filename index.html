@@ -7,7 +7,7 @@
 <meta name="keywords" content="五子棋,AI,HTML5,Canvas,Zhming">
 <title> Gobang - HTML5 </title>
 
-<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.7.0/underscore-min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.7.0/underscore-min.js"></script>
 </head>
 <style>
 * {
@@ -101,7 +101,7 @@ canvas {
   <p> Gobang in HTML5 - Kill time while waiting</p>
   <p> Copyright © 2014 <a href="http://mingplusplus.com">Zhiming Guo</a> </p>
 </div>
-<script type="text/javascript" src="gobang.js"> </script>
+<script src="gobang.js"> </script>
 <script>
   gobang = new Gobang(document.getElementById("gobang"));
   if (gobang.init()) {
@@ -118,8 +118,8 @@ canvas {
     gobang.regret();
   };
 </script>
-<script type="text/javascript" src="gobang-ai-fast.js"></script>
-<script type="text/javascript">
+<script src="gobang-ai-fast.js"></script>
+<script>
   //grid = [
   //    [-1, -1, -1, -1, -1],
   //    [-1, 0, 0, 0, 0],
